@@ -30,11 +30,6 @@ services:
       - key: NODE_VERSION
         value: 20.11.1
       - key: BACKEND_URL
-        value: https://interview-api.onrender.com
-      - key: BACKEND_HOSTPORT
-        fromService:
-          type: web
-          name: interview-api
-          property: hostport
+        value: https://interview-api-jp3f.onrender.com
       - key: NEXT_PUBLIC_API_BASE
         value: ""
