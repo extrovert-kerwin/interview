@@ -31,5 +31,10 @@ services:
         value: 20.11.1
       - key: BACKEND_URL
         value: https://interview-api.onrender.com
+      - key: BACKEND_HOSTPORT
+        fromService:
+          type: web
+          name: interview-api
+          property: hostport
       - key: NEXT_PUBLIC_API_BASE
         value: ""
