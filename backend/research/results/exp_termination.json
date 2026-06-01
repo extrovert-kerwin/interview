@@ -1,0 +1,90 @@
+[
+  {
+    "rule": "fixed_budget",
+    "avg_rounds_used": 16.0,
+    "avg_total_reward": 24.387602825684187,
+    "avg_ability_rmse": 0.2350695145917173,
+    "se_threshold": 0.0,
+    "stop_reason_dist": {
+      "fixed_budget": 1.0
+    },
+    "rounds_ci95": [
+      16.0,
+      16.0
+    ],
+    "rmse_ci95": [
+      0.2057883303551601,
+      0.26100754308590995
+    ],
+    "reward_ci95": [
+      23.87790230644099,
+      24.88123760791016
+    ]
+  },
+  {
+    "rule": "pser_se<=0.3",
+    "avg_rounds_used": 4.983333333333333,
+    "avg_total_reward": 7.277897554652829,
+    "avg_ability_rmse": 0.20190153727069898,
+    "se_threshold": 0.3,
+    "stop_reason_dist": {
+      "se_below_threshold": 1.0
+    },
+    "rounds_ci95": [
+      4.133333333333334,
+      5.916666666666667
+    ],
+    "rmse_ci95": [
+      0.1733578124685455,
+      0.22672850094484598
+    ],
+    "reward_ci95": [
+      6.208094529782602,
+      8.437953031150105
+    ]
+  },
+  {
+    "rule": "pser_se<=0.22",
+    "avg_rounds_used": 8.1,
+    "avg_total_reward": 11.812439671777867,
+    "avg_ability_rmse": 0.18048098885142164,
+    "se_threshold": 0.22,
+    "stop_reason_dist": {
+      "se_below_threshold": 1.0
+    },
+    "rounds_ci95": [
+      7.35,
+      8.833749999999998
+    ],
+    "rmse_ci95": [
+      0.15349745390118047,
+      0.20761741865131036
+    ],
+    "reward_ci95": [
+      10.862819650287756,
+      12.73544019821762
+    ]
+  },
+  {
+    "rule": "pser_se<=0.18",
+    "avg_rounds_used": 10.133333333333333,
+    "avg_total_reward": 14.781112335439495,
+    "avg_ability_rmse": 0.1724660319306499,
+    "se_threshold": 0.18,
+    "stop_reason_dist": {
+      "se_below_threshold": 1.0
+    },
+    "rounds_ci95": [
+      9.75,
+      10.516666666666667
+    ],
+    "rmse_ci95": [
+      0.1436825032714447,
+      0.2004923236307285
+    ],
+    "reward_ci95": [
+      14.19494211047264,
+      15.392863665126706
+    ]
+  }
+]

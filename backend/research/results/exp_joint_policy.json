@@ -1,0 +1,102 @@
+[
+  {
+    "selector": "round_robin",
+    "difficulty": "heuristic",
+    "avg_total_reward": 16.007918179181157,
+    "avg_calibration_mae": 0.04274275195930285,
+    "avg_target_hit_rate": 0.2791666666666667,
+    "avg_coverage_entropy": 1.4735023850806483,
+    "reward_ci95": [
+      15.308779513818655,
+      16.723322408952953
+    ],
+    "mae_ci95": [
+      0.039658218907969583,
+      0.046060569911867986
+    ],
+    "hit_rate_ci95": [
+      0.2385416666666667,
+      0.32395833333333335
+    ]
+  },
+  {
+    "selector": "round_robin",
+    "difficulty": "pi_control",
+    "avg_total_reward": 17.816761440773735,
+    "avg_calibration_mae": 0.04889490739330007,
+    "avg_target_hit_rate": 0.30625,
+    "avg_coverage_entropy": 1.4735023850806483,
+    "reward_ci95": [
+      17.46485785405209,
+      18.174821790266304
+    ],
+    "mae_ci95": [
+      0.045905226967857336,
+      0.052024216231167465
+    ],
+    "hit_rate_ci95": [
+      0.27708333333333335,
+      0.33541666666666664
+    ]
+  },
+  {
+    "selector": "linucb",
+    "difficulty": "heuristic",
+    "avg_total_reward": 18.662236359290347,
+    "avg_calibration_mae": 0.039535682998343265,
+    "avg_target_hit_rate": 0.4885416666666667,
+    "avg_coverage_entropy": 1.246981850166515,
+    "reward_ci95": [
+      18.11314997080443,
+      19.168283061471328
+    ],
+    "mae_ci95": [
+      0.036342120941278956,
+      0.04301750205803372
+    ],
+    "hit_rate_ci95": [
+      0.4385416666666666,
+      0.5364843749999999
+    ]
+  },
+  {
+    "selector": "linucb",
+    "difficulty": "pi_control",
+    "avg_total_reward": 18.42540117535163,
+    "avg_calibration_mae": 0.04327677469031706,
+    "avg_target_hit_rate": 0.37083333333333335,
+    "avg_coverage_entropy": 1.4167194293825436,
+    "reward_ci95": [
+      18.036492574729614,
+      18.8358494032738
+    ],
+    "mae_ci95": [
+      0.04068083588139463,
+      0.04621410309495537
+    ],
+    "hit_rate_ci95": [
+      0.3375,
+      0.40627604166666653
+    ]
+  },
+  {
+    "selector": "ia_linucb",
+    "difficulty": "pi_control",
+    "avg_total_reward": 18.31784540646882,
+    "avg_calibration_mae": 0.043416176445349994,
+    "avg_target_hit_rate": 0.3541666666666667,
+    "avg_coverage_entropy": 1.4139371599405164,
+    "reward_ci95": [
+      17.939270701137943,
+      18.718995745655867
+    ],
+    "mae_ci95": [
+      0.04081723783051453,
+      0.04636880049433744
+    ],
+    "hit_rate_ci95": [
+      0.31979166666666664,
+      0.3885677083333332
+    ]
+  }
+]

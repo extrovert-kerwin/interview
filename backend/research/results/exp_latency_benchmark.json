@@ -1,0 +1,42 @@
+[
+  {
+    "aggregator": "mean",
+    "rounds": 10,
+    "judge_count": 5,
+    "median_ms_per_session": 0.0009580035111866891,
+    "p95_ms_per_session": 0.0017080019460991025,
+    "sessions_measured": 500
+  },
+  {
+    "aggregator": "trimmed",
+    "rounds": 10,
+    "judge_count": 5,
+    "median_ms_per_session": 0.003291999746579677,
+    "p95_ms_per_session": 0.0036669953260570765,
+    "sessions_measured": 500
+  },
+  {
+    "aggregator": "ds",
+    "rounds": 10,
+    "judge_count": 5,
+    "median_ms_per_session": 0.19770899962168187,
+    "p95_ms_per_session": 0.37833399983355775,
+    "sessions_measured": 500
+  },
+  {
+    "aggregator": "mace",
+    "rounds": 10,
+    "judge_count": 5,
+    "median_ms_per_session": 0.31075000151759014,
+    "p95_ms_per_session": 0.43524999637156725,
+    "sessions_measured": 500
+  },
+  {
+    "aggregator": "rwmj",
+    "rounds": 10,
+    "judge_count": 5,
+    "median_ms_per_session": 0.1058329944498837,
+    "p95_ms_per_session": 0.1418329993612133,
+    "sessions_measured": 500
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "knob": "trimmed.trim",
+    "value": 0.0,
+    "mae": 0.06615151453637932,
+    "kappa": 0.9236001244033373,
+    "bias": 0.04660167431616829
+  },
+  {
+    "knob": "trimmed.trim",
+    "value": 0.1,
+    "mae": 0.06615151453637932,
+    "kappa": 0.9236001244033373,
+    "bias": 0.04660167431616829
+  },
+  {
+    "knob": "trimmed.trim",
+    "value": 0.2,
+    "mae": 0.05023939273325508,
+    "kappa": 0.9478140781070512,
+    "bias": 0.02780349599059287
+  },
+  {
+    "knob": "trimmed.trim",
+    "value": 0.3,
+    "mae": 0.05023939273325508,
+    "kappa": 0.9478140781070512,
+    "bias": 0.02780349599059287
+  },
+  {
+    "knob": "trimmed.trim",
+    "value": 0.4,
+    "mae": 0.049929652969873166,
+    "kappa": 0.9504727035634576,
+    "bias": 0.0201254687664585
+  },
+  {
+    "knob": "ia_linucb.alpha0",
+    "value": 0.4,
+    "mae": 18.508717584056658,
+    "kappa": 0.0,
+    "bias": 0.0
+  },
+  {
+    "knob": "ia_linucb.alpha0",
+    "value": 0.8,
+    "mae": 18.393011074528385,
+    "kappa": 0.0,
+    "bias": 0.0
+  },
+  {
+    "knob": "ia_linucb.alpha0",
+    "value": 1.0,
+    "mae": 18.556526120683294,
+    "kappa": 0.0,
+    "bias": 0.0
+  },
+  {
+    "knob": "ia_linucb.alpha0",
+    "value": 1.4,
+    "mae": 18.30751708856159,
+    "kappa": 0.0,
+    "bias": 0.0
+  },
+  {
+    "knob": "ia_linucb.alpha0",
+    "value": 2.0,
+    "mae": 18.391866187010102,
+    "kappa": 0.0,
+    "bias": 0.0
+  },
+  {
+    "knob": "ia_linucb.gamma0",
+    "value": 0.0,
+    "mae": 18.284836621550774,
+    "kappa": 0.0,
+    "bias": 0.0
+  },
+  {
+    "knob": "ia_linucb.gamma0",
+    "value": 0.3,
+    "mae": 18.283929129835744,
+    "kappa": 0.0,
+    "bias": 0.0
+  },
+  {
+    "knob": "ia_linucb.gamma0",
+    "value": 0.6,
+    "mae": 18.262672475724273,
+    "kappa": 0.0,
+    "bias": 0.0
+  },
+  {
+    "knob": "ia_linucb.gamma0",
+    "value": 0.9,
+    "mae": 18.288020657952266,
+    "kappa": 0.0,
+    "bias": 0.0
+  },
+  {
+    "knob": "ia_linucb.gamma0",
+    "value": 1.2,
+    "mae": 18.265186205624055,
+    "kappa": 0.0,
+    "bias": 0.0
+  },
+  {
+    "knob": "ia_linucb.gamma0",
+    "value": 1.5,
+    "mae": 18.21421272648247,
+    "kappa": 0.0,
+    "bias": 0.0
+  }
+]

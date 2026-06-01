@@ -1,0 +1,322 @@
+[
+  {
+    "dataset": "balanced",
+    "strategy": "round_robin",
+    "avg_total_reward": 17.49457534366609,
+    "avg_final_regret": 0.46422327642620487,
+    "per_arm_ability_rmse": 0.2521567264515847,
+    "n_candidates": 60,
+    "reward_ci95": [
+      17.03032965979026,
+      17.92002244135988
+    ],
+    "regret_ci95": [
+      -0.06319477334858235,
+      0.9788542102231496
+    ]
+  },
+  {
+    "dataset": "balanced",
+    "strategy": "thompson",
+    "avg_total_reward": 16.916921620322878,
+    "avg_final_regret": 1.0418769997694173,
+    "per_arm_ability_rmse": 0.22956033708356655,
+    "n_candidates": 60,
+    "reward_ci95": [
+      16.588797407043987,
+      17.239439751093656
+    ],
+    "regret_ci95": [
+      0.4307612401082536,
+      1.6283370416104719
+    ]
+  },
+  {
+    "dataset": "balanced",
+    "strategy": "linucb",
+    "avg_total_reward": 18.136977572810217,
+    "avg_final_regret": -0.17817895271791973,
+    "per_arm_ability_rmse": 0.2178410580399792,
+    "n_candidates": 60,
+    "reward_ci95": [
+      17.68155445825354,
+      18.563443714335634
+    ],
+    "regret_ci95": [
+      -0.6392183358212815,
+      0.2711535217047983
+    ]
+  },
+  {
+    "dataset": "balanced",
+    "strategy": "irt_cat",
+    "avg_total_reward": 17.649967475081038,
+    "avg_final_regret": 0.308831145011261,
+    "per_arm_ability_rmse": 0.237290869770757,
+    "n_candidates": 60,
+    "reward_ci95": [
+      17.216998620990402,
+      18.069093184818147
+    ],
+    "regret_ci95": [
+      -0.12209833430161672,
+      0.7259382250936506
+    ]
+  },
+  {
+    "dataset": "balanced",
+    "strategy": "ia_linucb",
+    "avg_total_reward": 18.130880214702042,
+    "avg_final_regret": -0.1720815946097488,
+    "per_arm_ability_rmse": 0.21752726912975526,
+    "n_candidates": 60,
+    "reward_ci95": [
+      17.67890645392162,
+      18.56975624259182
+    ],
+    "regret_ci95": [
+      -0.6125794748689732,
+      0.2451924991714134
+    ]
+  },
+  {
+    "dataset": "senior_heavy",
+    "strategy": "round_robin",
+    "avg_total_reward": 18.46698166917914,
+    "avg_final_regret": 1.1543027161462789,
+    "per_arm_ability_rmse": 0.23091944833723282,
+    "n_candidates": 60,
+    "reward_ci95": [
+      18.00661114563923,
+      18.923349879813816
+    ],
+    "regret_ci95": [
+      0.709485272662042,
+      1.6312017265371623
+    ]
+  },
+  {
+    "dataset": "senior_heavy",
+    "strategy": "thompson",
+    "avg_total_reward": 17.932771860827994,
+    "avg_final_regret": 1.6885125244974242,
+    "per_arm_ability_rmse": 0.19961850977832152,
+    "n_candidates": 60,
+    "reward_ci95": [
+      17.49438021652694,
+      18.368142536893153
+    ],
+    "regret_ci95": [
+      1.2370852730283919,
+      2.1526119513058903
+    ]
+  },
+  {
+    "dataset": "senior_heavy",
+    "strategy": "linucb",
+    "avg_total_reward": 19.512146905152363,
+    "avg_final_regret": 0.10913748017305407,
+    "per_arm_ability_rmse": 0.24274486526094247,
+    "n_candidates": 60,
+    "reward_ci95": [
+      19.0219152647413,
+      19.979703793731204
+    ],
+    "regret_ci95": [
+      -0.24648564797926006,
+      0.4876034131671217
+    ]
+  },
+  {
+    "dataset": "senior_heavy",
+    "strategy": "irt_cat",
+    "avg_total_reward": 18.446133601793886,
+    "avg_final_regret": 1.1751507835315376,
+    "per_arm_ability_rmse": 0.2224990193298723,
+    "n_candidates": 60,
+    "reward_ci95": [
+      17.958563490941295,
+      18.921688716132167
+    ],
+    "regret_ci95": [
+      0.8327256638461583,
+      1.5333077243445725
+    ]
+  },
+  {
+    "dataset": "senior_heavy",
+    "strategy": "ia_linucb",
+    "avg_total_reward": 19.540207947220992,
+    "avg_final_regret": 0.08107643810443127,
+    "per_arm_ability_rmse": 0.24571910766071234,
+    "n_candidates": 60,
+    "reward_ci95": [
+      19.03388981913372,
+      20.01578913859711
+    ],
+    "regret_ci95": [
+      -0.25852120957280744,
+      0.443097580930621
+    ]
+  },
+  {
+    "dataset": "adversarial",
+    "strategy": "round_robin",
+    "avg_total_reward": 16.50922054957092,
+    "avg_final_regret": -0.7113007139490477,
+    "per_arm_ability_rmse": 0.2744452976881534,
+    "n_candidates": 60,
+    "reward_ci95": [
+      16.307691276954863,
+      16.701145516926417
+    ],
+    "regret_ci95": [
+      -1.126938415649109,
+      -0.2824366722382812
+    ]
+  },
+  {
+    "dataset": "adversarial",
+    "strategy": "thompson",
+    "avg_total_reward": 16.25472250767633,
+    "avg_final_regret": -0.4568026720544576,
+    "per_arm_ability_rmse": 0.24212585625827424,
+    "n_candidates": 60,
+    "reward_ci95": [
+      16.06210350285077,
+      16.44282645990328
+    ],
+    "regret_ci95": [
+      -0.8841037210811932,
+      -0.00684381719396878
+    ]
+  },
+  {
+    "dataset": "adversarial",
+    "strategy": "linucb",
+    "avg_total_reward": 16.744037707164676,
+    "avg_final_regret": -0.9461178715428031,
+    "per_arm_ability_rmse": 0.19734862627425498,
+    "n_candidates": 60,
+    "reward_ci95": [
+      16.522404095686422,
+      16.971127769610103
+    ],
+    "regret_ci95": [
+      -1.3391781852609839,
+      -0.5646492758490222
+    ]
+  },
+  {
+    "dataset": "adversarial",
+    "strategy": "irt_cat",
+    "avg_total_reward": 16.24011573259912,
+    "avg_final_regret": -0.4421958969772434,
+    "per_arm_ability_rmse": 0.19692511449234418,
+    "n_candidates": 60,
+    "reward_ci95": [
+      16.0320600959507,
+      16.457739945728346
+    ],
+    "regret_ci95": [
+      -0.8345573546973999,
+      -0.041247888452629465
+    ]
+  },
+  {
+    "dataset": "adversarial",
+    "strategy": "ia_linucb",
+    "avg_total_reward": 16.684930383454024,
+    "avg_final_regret": -0.8870105478321548,
+    "per_arm_ability_rmse": 0.19720056654250087,
+    "n_candidates": 60,
+    "reward_ci95": [
+      16.467996119396712,
+      16.89777554160086
+    ],
+    "regret_ci95": [
+      -1.2748671110591439,
+      -0.5144210370252682
+    ]
+  },
+  {
+    "dataset": "resume_mismatch",
+    "strategy": "round_robin",
+    "avg_total_reward": 18.163744674061903,
+    "avg_final_regret": -0.1878580222407337,
+    "per_arm_ability_rmse": 0.2506352985665914,
+    "n_candidates": 60,
+    "reward_ci95": [
+      17.991615036983607,
+      18.346706023633615
+    ],
+    "regret_ci95": [
+      -0.41390635703476025,
+      0.04347881455848376
+    ]
+  },
+  {
+    "dataset": "resume_mismatch",
+    "strategy": "thompson",
+    "avg_total_reward": 17.95255470528591,
+    "avg_final_regret": 0.023331946535262323,
+    "per_arm_ability_rmse": 0.24409321575139617,
+    "n_candidates": 60,
+    "reward_ci95": [
+      17.772285348668543,
+      18.143740697073582
+    ],
+    "regret_ci95": [
+      -0.1975208064474196,
+      0.2528917129281755
+    ]
+  },
+  {
+    "dataset": "resume_mismatch",
+    "strategy": "linucb",
+    "avg_total_reward": 17.916413290620433,
+    "avg_final_regret": 0.059473361200740274,
+    "per_arm_ability_rmse": 0.17893035867976087,
+    "n_candidates": 60,
+    "reward_ci95": [
+      17.79417392287547,
+      18.041712594728985
+    ],
+    "regret_ci95": [
+      -0.1350139012926706,
+      0.24492990037019835
+    ]
+  },
+  {
+    "dataset": "resume_mismatch",
+    "strategy": "irt_cat",
+    "avg_total_reward": 17.495858383726787,
+    "avg_final_regret": 0.4800282680943854,
+    "per_arm_ability_rmse": 0.22134092904199337,
+    "n_candidates": 60,
+    "reward_ci95": [
+      17.350862585802727,
+      17.641079157483087
+    ],
+    "regret_ci95": [
+      0.28749591519027573,
+      0.6649553609485277
+    ]
+  },
+  {
+    "dataset": "resume_mismatch",
+    "strategy": "ia_linucb",
+    "avg_total_reward": 17.90429218233695,
+    "avg_final_regret": 0.07159446948422551,
+    "per_arm_ability_rmse": 0.18065036837268156,
+    "n_candidates": 60,
+    "reward_ci95": [
+      17.783961293606186,
+      18.030819365459624
+    ],
+    "regret_ci95": [
+      -0.12437232668642043,
+      0.2605239523281123
+    ]
+  }
+]

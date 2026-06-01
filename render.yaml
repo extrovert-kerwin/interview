@@ -1,0 +1,35 @@
+services:
+  - type: web
+    name: interview-api
+    runtime: python
+    plan: free
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /healthz
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: ZHIPUAI_MODEL
+        value: glm-4-flash
+      - key: ZHIPUAI_API_KEY
+        sync: false
+      - key: DATABASE_URL
+        sync: false
+      - key: CORS_ORIGINS
+        value: https://interview-web.onrender.com
+
+  - type: web
+    name: interview-web
+    runtime: node
+    plan: free
+    rootDir: frontend
+    buildCommand: corepack enable && pnpm install --frozen-lockfile && pnpm build
+    startCommand: pnpm start -- -H 0.0.0.0 -p $PORT
+    envVars:
+      - key: NODE_VERSION
+        value: 20.11.1
+      - key: BACKEND_URL
+        value: https://interview-api.onrender.com
+      - key: NEXT_PUBLIC_API_BASE
+        value: ""
