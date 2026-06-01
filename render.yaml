@@ -24,7 +24,7 @@ services:
     runtime: node
     plan: free
     rootDir: frontend
-    buildCommand: corepack enable && pnpm install --frozen-lockfile && pnpm build
+    buildCommand: corepack enable && corepack prepare pnpm@9.15.9 --activate && pnpm install --frozen-lockfile && pnpm build
     startCommand: pnpm start -- -H 0.0.0.0 -p $PORT
     envVars:
       - key: NODE_VERSION
